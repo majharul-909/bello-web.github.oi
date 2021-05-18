@@ -432,7 +432,7 @@ text-align: center;
 
 .more-product-section{
   height: auto;
-  width: 80%;
+  max-width: 1440px;
   display:flex;
   flex-wrap: wrap;
   margin: auto;
@@ -445,8 +445,8 @@ font-weight: bold;
 }
 .product-box{
   height:650px;
-  min-width:420px;
-  flex: 10%;
+  min-width:320px;
+  flex: 5%;
   background-color: rgb(255, 255, 255);
   margin: 20px;
   box-shadow: 0px 20px 30px #2ad1ff25;

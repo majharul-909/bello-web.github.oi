@@ -346,20 +346,49 @@ font-weight: bold;
   height: 100vh;
 }
 /* <!-======- Product Page -Style- Start Here -=====-> */
-.bd-placeholder-img{
-  height:357px;
-  width: 536px;
+.Electrical-Engineering{
+  width: 100vw;
+  overflow: hidden;
+  margin:auto;
+  height: auto;
 }
-.featurette{
-  padding-top:50px ;
-  padding-bottom: 50px;
+#dot{
+  display: none;
 }
-.container{
-  padding-left: 30px;
-  padding-right: 30px;
+.Electrical-Engineering .read-more-container{
+max-width: 1440px;
+text-align: center;
+padding:0 30px;
+position: relative;
+left: 50%;
+transform: translateX(-50%);
+}
+.box-1{
+width: 100%;
+margin: auto;
+
+
+}
+.read-more-container h2{
+  font-size: 2rem;
+  color: #00BCEF;
+  margin-top: 30px;
+}
+#read-more-btn{
+  color: #00BCEF;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#read-more-text{
+  display: none;
+}
+
+#read-more-text--show{
+  display: inline;
 }
 .ul-1{
-  margin-top: 40px;
+  margin-top: 20px;
   text-align: left;
   list-style: none;
   line-height: 27px;
@@ -373,37 +402,120 @@ margin-right: 10px;
 font-weight: bold;
 font-size: 20px;
 }
-.featurette-heading{
-  font-size: 2rem;
-  text-align: left;
- color: #00BCEF;
+section {
+  min-height: 40vh;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
 }
-.col-md-7{
-  text-align: center;
-  padding-left: 50px;
-}
-.col-md-5{
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 50px auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  /* background-color: aqua; */
 }
-.col-md-btn{
-  padding: 0.4rem 2rem;
-  font-size: 17px;
-  border-radius: 5px;
-  margin-top: 30px;
-  margin-bottom: 40px;
-  border: 2px solid #00BCEF;
+.left {
+  width: 60%;
+  height: 500px;
+  border-radius: 8px;
+}
+.e-img1{
+  background:url(../images/E-img1.png) no-repeat center / cover ;
+}
+.e-img2{
+  background:url(../images/E-img2.png) no-repeat center / cover ;
+}
+.e-img3{
+  background:url(../images/E-img3.png) no-repeat center / cover ;
+}
+.e-img4{
+  background:url(../images/E-img1.png) no-repeat center / cover ;
+}
+.right {
+  width: 70%;
+  min-height: 400px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 8px;
+  color: rgb(37, 37, 37);
+  margin-left: -150px;
+  box-shadow: 0px 10px 20px #1b15011c;
+}
+.right-r {
+  margin-right: -150px;
+  z-index: 2;
+  width: 70%;
+  min-height: 400px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 8px;
+  color: rgb(31, 31, 31);
+  box-shadow: 0px 10px 20px #1b15011c;
+}
+.right h1 {
+  font-size: 1.7rem;
+  font-weight: bold;
   color: #00BCEF;
+}
+.right-r h1 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #00BCEF;
+}
+.right p {
+  margin: 20px 0;
   font-weight: 500;
-  background: none;
-  transition: 0.3s all linear;
+  line-height: 25px;
 }
-.col-md-btn:hover{
-  background:#00BCEF;
-  color: white;
+.right a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
+  padding: 20px 30px;
+  display: inline-block;
+  letter-spacing: 2px;
 }
-.project-more-btn{
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 20px;
+  }
+  .left {
+    width: 100%;
+    height: 400px;
+  }
+  .right {
+    width: 90%;
+    margin: 0;
+    margin-top: -100px;
+  }
+}
+@media only screen and (max-width: 768px) {
+
+  .right-r {
+    width: 90%;
+    margin: 0;
+    margin-bottom: -100px;
+  }
+}
+
+.Electrical-Engineering-more-btn{
   width: 100%;
   height: 50px;
   display: flex;
@@ -412,7 +524,7 @@ font-size: 20px;
   justify-content: center;
   margin: 80px auto;
 }
-.project-more-btn a{
+.Electrical-Engineering-more-btn a{
   padding: 0.4rem 2rem;
   font-size: 17px;
   border-radius: 5px;
@@ -425,39 +537,10 @@ font-size: 20px;
   background: none;
   transition: 0.3s all linear;
 }
-.project-more-btn a:hover{
+.Electrical-Engineering-more-btn a:hover{
   background:#00BCEF;
   color: white;
 }
-@media screen and (max-width:990px){
-  .bd-placeholder-img{
-    height:auto;
-    width: 536px;
-  }
-  .featurette-heading{
-    font-size: 1.5rem;
-    text-align: left;
-  
-  }
-  .featurette-sub-heading{
-    font-size: 1.2rem;
-    text-align: left;
-  }
-  .lead{
-    height: 150px;
-  }
-}
-@media (max-width: 768px){
-.col-md-7{
-text-align: center;
-}
-}
-@media (min-width: 1200px){
-.container, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 1440px;
-}
-}
-
 /*================== Foter -Style- Start =========================*/
 footer{
   margin-top: 50px;

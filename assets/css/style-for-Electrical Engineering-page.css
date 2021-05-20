@@ -346,7 +346,7 @@ font-weight: bold;
   height: 100vh;
 }
 /* <!-======- Product Page -Style- Start Here -=====-> */
-.Electrical-Engineering{
+.Electrical-Engineering_section{
   width: 100vw;
   overflow: hidden;
   margin:auto;
@@ -355,7 +355,7 @@ font-weight: bold;
 #dot{
   display: none;
 }
-.Electrical-Engineering .read-more-container{
+.Electrical-Engineering_section .read-more-container{
 max-width: 1440px;
 text-align: center;
 padding:0 30px;

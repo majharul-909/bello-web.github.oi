@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="125.782" height="36.01" viewBox="0 0 125.782 36.01">
+  <g id="Group_99" data-name="Group 99" transform="translate(-1579.088 -1157)">
+    <g id="Group_98" data-name="Group 98">
+      <path id="Path_25" data-name="Path 25" d="M1607.19,1181.93a6.39,6.39,0,1,1,0-12.77h18L1613.83,1158h-6.64a17.51,17.51,0,1,0,0,35Z" transform="translate(-10)" fill="#de564a"/>
+      <rect id="Rectangle_7" data-name="Rectangle 7" width="11.44" height="24.52" transform="translate(1603.76 1167.98)" fill="#465b65"/>
+      <path id="Path_26" data-name="Path 26" d="M1625.2,1168.51v11.32l-11.44-11.32Z" transform="translate(-10)"/>
+    </g>
+    <text id="Ad" transform="translate(1622.02 1184)" fill="#de564a" font-size="25" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Ad</tspan></text>
+    <text id="Mob" transform="translate(1652.87 1184)" fill="#465b65" font-size="25" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Mob</tspan></text>
+  </g>
+</svg>
